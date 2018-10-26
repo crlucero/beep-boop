@@ -3,25 +3,29 @@ var numberToPhrase = function(n, customPhrase) {
   var inputNumber = [];
   
   
-  if (parseInt(string) === 0) {
+  if ("0".includes(string[0]) && string.length >= 0) {
     return '"Beep!"';
-  }
-
-   if("1".includes(string[0]) && string.length == 1) {
-    return '"Boop!"';
-  }
-  
-  if(!"1".includes(string[0])) {
-    for (x = 0; x < string.length; x++) {
-      var notFirstNumber = x 
-    return '"Boop!"';
+    }
+       if ("0".includes(string[0])) {
+      for (x = 0; x < string.length; x++) {
+        var notFirstZero = x 
+      return '"Beep!"';
   }
 }
+
+   if ("1".includes(string[0]) && string.length >= 1) {
+    return '"Boop!"';
+   }
   
+    else if (!"1".includes(string[0])) {
+      for (x = 0; x < string.length; x++) {
+        var notFirstOne = x 
+      return '"Boop!"';
+  }
+}
+console.log(numberToPhrase()) 
   
 }
-
-console.log(numberToPhrase(21))
 
 
 $(document).ready(function(){
