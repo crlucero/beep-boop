@@ -1,17 +1,18 @@
-function numberToPhrase(n, customPhrase) {
+var numberToPhrase = function(n, customPhrase) {
   var string = n.toString();
-  
+  var inputNumber = [];
   
   
   if (parseInt(string) === 0) {
-    return 'beep';
+    return '"Beep!"';
   }
-  
-  if (parseInt(string) === 1) {
-    return 'boop';
+
+   if("1".includes(string[0]) && string.length >= 1) {
+    return '"Boop!"';
   }
   
 }
+
 
 console.log(numberToPhrase(10))
 
