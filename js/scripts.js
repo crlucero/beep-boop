@@ -7,16 +7,21 @@ var numberToPhrase = function(n, customPhrase) {
     return '"Beep!"';
   }
 
-   if("1".includes(string[0]) && string.length >= 1) {
+   if("1".includes(string[0]) && string.length == 1) {
     return '"Boop!"';
   }
   
+  if(!"1".includes(string[0])) {
+    for (x = 0; x < string.length; x++) {
+      var notFirstNumber = x 
+    return '"Boop!"';
+  }
+}
+  
+  
 }
 
-
-console.log(numberToPhrase(10))
-
-
+console.log(numberToPhrase(21))
 
 
 $(document).ready(function(){
