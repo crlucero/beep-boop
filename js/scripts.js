@@ -1,15 +1,23 @@
-var numberToPhrase = function(n, customPhrase) {
+var numberToPhrase = function(n) {
   var string = n.toString();
-  var inputNumber = [];
+  var n = [''];
+
+
+  var dividedByThree = function(inputNumber) {
+    divisibleArray = []
+
+   for (x = inputNumber; x > 0; x = Math.floor(x % 3 === 0)) {
+     return (dividedByThree ('"I am sorry, Dave. I am afraid I cannot do that."'));
+    }
   
+}
   
-  if ("0".includes(string[0]) && string.length >= 0) {
+  if ("0".includes(string[0]) && string.length >=1 ) {
     return '"Beep!"';
     }
-       if ("0".includes(string[0])) {
-      for (x = 0; x < string.length; x++) {
-        var notFirstZero = x 
-      return '"Beep!"';
+    else if ("0".includes(string[0])) {
+      for (x = 1; x < string.length; x++) { 
+        return '"Beep!"';
   }
 }
 
@@ -19,13 +27,12 @@ var numberToPhrase = function(n, customPhrase) {
   
     else if (!"1".includes(string[0])) {
       for (x = 0; x < string.length; x++) {
-        var notFirstOne = x 
-      return '"Boop!"';
+        return '"Boop!"';
   }
 }
-console.log(numberToPhrase()) 
+
   
-}
+};
 
 
 $(document).ready(function(){
