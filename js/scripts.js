@@ -1,13 +1,13 @@
-var numberToPhrase = function(n) {
-  var string = n.toString();
+var numberToPhrase = function(number, UserName) {
+  var string = n.toString().split('');
   var n = [''];
 
 
   var dividedByThree = function(inputNumber) {
-    divisibleArray = []
+    divisibleArray = [];
 
    for (x = inputNumber; x > 0; x = Math.floor(x % 3 === 0)) {
-     return (dividedByThree ('"I am sorry, Dave. I am afraid I cannot do that."'));
+     return "I am sorry," + userName + "I am afraid I cannot do that.";
     }
   
 }

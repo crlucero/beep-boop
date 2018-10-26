@@ -20,12 +20,14 @@ Beahvior: Program will find numbers divisble by 3.
 
 
 ## Setup/Installation Requirements
-
+    Clone repository from Github
+    Open in text editor
+    Use index.html to open website
 
 
 
 ## Known Bugs
-
+There are no known bugs in this current version of the application. 
 
 
 ## Support and contact details
@@ -38,7 +40,8 @@ HTML
 CSS
 JQuery
 Javascript
-Atom (text editor)
+Bootstrap
+Visual Studio Code (text editor)
 
 ##Link to website
 
