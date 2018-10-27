@@ -1,4 +1,4 @@
-// This is my back-end, or business, logic. It basically
+// This is my back-end, or business, logic. It
 // tells the program what to do and how to do it.
 
 var numberToPhrase = function(number){
