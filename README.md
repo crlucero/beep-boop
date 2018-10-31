@@ -8,13 +8,13 @@
 This is a program that will ask for a user to enter a number into the text field. Once they enter a number and hit the button, the output will produce a a list of numbers that lead up to that number and replace 0's with "Beep", 1's with "Boop", and numbers that are divisible by 3 will be replaced with, "I'm sorry, Dave. I'm afraid I can't do that."
 
 ## Specs
- Behavior: Program replaces 0 with "Beep!"
+####Behavior: Program replaces 0 with "Beep!"
 * Example Input: 0
 * Example Output: ["Beep!"]
- Behavior: Program replaces 1 with "Boop!"
+####Behavior: Program replaces 1 with "Boop!"
 * Example Input: 1
 * Example output: ["Boop!"]
- Behavior: Program will find numbers divisble by 3.
+####Behavior: Program will find numbers divisble by 3.
 * Example Input: 30
 * Example output: ["I'm sorry, Dave. I'm afraid I can't do that."]
 
