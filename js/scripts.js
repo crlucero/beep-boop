@@ -11,19 +11,21 @@ var numberToPhrase = function(number){
 
   var transformedArray = arrayNumbers.map(function(character) {
     
-    if (character.includes('0')){
-      return "Beep!";
+
+    if (character % 3 === 0 && character != 0) {
+      return " I'm sorry, human. I'm afraid I can't do that! Please try another input.";
+      }
+    
+      
+      
+      else if (character.includes('0')){
+      return " Beep!";
     } 
       
       
       else if (character.includes('1')){
-      return "Boop!";
-    } 
-      
-      
-      else if (character % 3 === 0 && character != 0) {
-      return "I'm sorry, human. I'm afraid I can't do that! Please try another input";
-      }
+        return " Boop!";
+      } 
     
     
     
